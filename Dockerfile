@@ -1,5 +1,12 @@
 ######## INSTALL ########
 
+LABEL name="steamcmd-nonroot"
+LABEL version="v0.1.0"
+LABEL description="SteamCMD docker with default user as `steam`"
+LABEL repository="https://github.com/ParkSnoopy/steamcmd-nonroot.git"
+LABEL license="GPL-3.0"
+LABEL authors="[ ParkSnoopy <117149837+ParkSnoopy@users.noreply.github.com> ]"
+
 # Set the base image
 FROM debian:12-slim
 
